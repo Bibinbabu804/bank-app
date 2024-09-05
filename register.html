@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Register Form</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+ <!-- Header -->
+    <header class="header">
+       
+        <div class="logo"> Scotia Bank </div>
+       
+        <div class="logo_img">
+          
+<img id="imglogo" src="https://imgs.search.brave.com/7U1NQW7goi5xB-ozr8vbmlMX994qK1QuWbecI4Gcwa8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bG9nb2pveS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTgv/MDUvMzAxNjAyNTgv/Ml9iaWc3LTc2OHg1/OTEucG5n" alt="">
+
+        </div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+
+        
+            <a href="#clients">Clients</a>
+           
+            <a href="./login.html" class="signup-button" id="sign">Login</a>
+        </nav>
+
+</header> 
+
+
+
+
+
+
+    <div class="register-form-container">
+        <div class="register-form">
+            <img src="https://imgs.search.brave.com/7U1NQW7goi5xB-ozr8vbmlMX994qK1QuWbecI4Gcwa8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bG9nb2pveS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTgv/MDUvMzAxNjAyNTgv/Ml9iaWc3LTc2OHg1/OTEucG5n" alt="Bank Logo" class="bank-logo">
+            <h2>My Bank</h2>
+        
+                <input id="name" type="text" name="username" placeholder="Username" required>
+                <input id="accountNumber" type="text" name="account_number" placeholder="Account number" required>
+                <input id="password" type="password" name="password" placeholder="Password" required>
+                <button onclick="register()" type="button">Register</button>
+          
+            <a href="./login.html" class="sign-in-link">Sign in</a>
+        </div>
+    </div>
+
+
+    <script src="./register.js"></script>
+</body>
+</html>
